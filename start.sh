@@ -1,0 +1,1 @@
+screen serverfiles/srcds_run -game csgo -usercon -strictportbind -ip [YOUR IP] -port 27015 +clientport 27005 +tv_port 27020 +sv_setsteamaccount [YOUR CODE] -tickrate 128 +map de_mirage +servercfgfile server.cfg -maxplayers_override 16 +mapgroup mg_active +game_type 0 +game_mode 1 +host_workshop_collection +workshop_start_map -authkey -nobreakpad
